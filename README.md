@@ -277,56 +277,17 @@ reports/career_report.md
 
 ---
 
-# LangGraph Workflow
-
-This application demonstrates **Conditional Routing**.
-
-```
-START
-
-↓
-
-Resume?
-
-↓
-
-Yes → Resume Parser
-
-No → Manual Input
-
-↓
-
-Skill Assessment
-
-↓
-
-Career Roadmap
-
-↓
-
-Project Mentor
-
-↓
-
-Interview Coach
-
-↓
-
-END
-```
-
----
 
 # Screenshots
 
 ```markdown
 ## Application
 
-![Terminal](screenshots/terminal.png)
+![Terminal](screenshots\terminal.png)
 
 ## Generated Report
 
-![Report](screenshots/report.png)
+![Report](screenshots\report.png)
 ```
 
 ---
