@@ -282,11 +282,11 @@ reports/career_report.md
 
 ## Application
 
-![Terminal](screenshots\terminal.png)
+![Terminal](screenshots/terminal.png)
 
 ## Generated Report
 
-![Report](screenshots\report.png)
+![Report](screenshots/report.png)
 
 ---
 
