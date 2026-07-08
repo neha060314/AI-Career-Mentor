@@ -1,7 +1,7 @@
 from graph.builder import career_graph
 
 print("=" * 60)
-print("          AI CAREER MENTOR CREW")
+print("          AI CAREER MENTOR")
 print("=" * 60)
 
 print("\nWelcome! This AI system will analyze your profile and")

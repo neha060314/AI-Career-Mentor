@@ -1,19 +1,18 @@
-# 🕸️ AI Career Mentor Crew
+# AI Career Mentor
 
-> **An intelligent multi-agent career guidance system powered by LangGraph and Google Gemini that analyzes student profiles, identifies skill gaps, generates personalized career roadmaps, recommends portfolio projects, and prepares users for technical interviews.**
+An intelligent multi-agent career guidance system powered by LangGraph and Google Gemini that analyzes student profiles, identifies skill gaps, generates personalized career roadmaps, recommends portfolio projects, and prepares users for technical interviews.
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
+![Python](https://img.shields.io/badge/Python-3.13+-blue?style=for-the-badge&logo=python)
 ![LangGraph](https://img.shields.io/badge/LangGraph-Multi--Agent-success?style=for-the-badge)
 ![Google Gemini](https://img.shields.io/badge/Google-Gemini-orange?style=for-the-badge&logo=google)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
 
-# 📖 Overview
+# Overview
 
 Choosing the right career path requires understanding current skills, identifying gaps, and planning a structured learning journey.
 
-**AI Career Mentor Crew** is an Agentic AI application built using **LangGraph** that simulates a team of specialized AI agents collaborating to provide personalized career guidance.
+**AI Career Mentor** is an Agentic AI application built using **LangGraph** that orchestrates a team of specialized AI agents collaborating to provide personalized career guidance.
 
 Instead of relying on a single prompt, the system follows a structured workflow where each AI agent performs a dedicated responsibility before passing the information to the next agent.
 
@@ -32,22 +31,22 @@ Based on the student's profile and target career domain, the system automaticall
 
 ---
 
-# ✨ Features
+# Features
 
-- 📄 Resume PDF Parsing
-- ✍ Manual Student Profile Entry
-- 🤖 Multi-Agent Workflow using LangGraph
-- 🧠 Google Gemini Integration
-- 📊 Skill Gap Analysis
-- 🛣 Personalized 3-Month Learning Roadmap
-- 💻 Beginner, Intermediate & Advanced Project Recommendations
-- 🎯 Technical & HR Interview Preparation
-- 📑 Automatic Career Report Generation
-- 🧩 Modular Python Project Structure
+- Resume PDF Parsing
+- Manual Student Profile Entry
+- Multi-Agent Workflow using LangGraph
+- Google Gemini Integration
+- Skill Gap Analysis
+- Personalized 3-Month Learning Roadmap
+- Beginner, Intermediate & Advanced Project Recommendations
+- Technical & HR Interview Preparation
+- Automatic Career Report Generation
+- Modular Python Project Structure
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 ```
                     START
@@ -82,7 +81,7 @@ Based on the student's profile and target career domain, the system automaticall
 
 # 🤖 AI Agents
 
-## 📄 Resume Parser Agent
+## Resume Parser Agent
 
 Responsible for extracting student information from a PDF resume.
 
@@ -94,7 +93,7 @@ Extracts:
 
 ---
 
-## 📊 Skill Assessment Agent
+## Skill Assessment Agent
 
 Analyzes the student's current profile against the selected career domain.
 
@@ -106,7 +105,7 @@ Produces:
 
 ---
 
-## 🛣 Career Roadmap Agent
+## Career Roadmap Agent
 
 Creates a personalized learning roadmap.
 
@@ -120,7 +119,7 @@ Includes:
 
 ---
 
-## 💻 Portfolio Mentor Agent
+## Portfolio Mentor Agent
 
 Suggests three portfolio projects.
 
@@ -135,7 +134,7 @@ Each project includes:
 
 ---
 
-## 🎯 Interview Coach Agent
+## Interview Coach Agent
 
 Prepares students for placements.
 
@@ -150,7 +149,7 @@ Generates:
 # 📂 Project Structure
 
 ```
-AI-Career-Mentor-Crew/
+AI-Career-Mentor/
 │
 ├── graph/
 │   ├── __init__.py
@@ -168,8 +167,10 @@ AI-Career-Mentor-Crew/
 │   └── interview_coach.py
 │
 ├── reports/
+│   ├── career_report.md (automatically generated after running)
 │
 ├── resumes/
+│   ├── sample_resume.pdf (you can add any resume)
 │
 ├── utils/
 │   ├── __init__.py
@@ -185,7 +186,7 @@ AI-Career-Mentor-Crew/
 
 ---
 
-# ⚙️ Technologies Used
+# Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
@@ -198,14 +199,14 @@ AI-Career-Mentor-Crew/
 
 ---
 
-# 🚀 Installation
+# Installation
 
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AI-Career-Mentor-Crew.git
+git clone https://github.com/neha060314/AI-Career-Mentor.git
 
-cd AI-Career-Mentor-Crew
+cd AI-Career-Mentor
 ```
 
 ---
@@ -238,17 +239,17 @@ pip install -r requirements.txt
 
 ---
 
-# 🔑 Configure API Key
+# Configure API Key
 
 Create a `.env` file in the project root directory.
 
 ```env
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+GEMINI_API_KEY=your_api_key_here
 ```
 
 ---
 
-# ▶️ Running the Project
+# Running the Project
 
 ```bash
 python main.py
@@ -256,49 +257,8 @@ python main.py
 
 ---
 
-# 🖥️ Terminal Workflow
 
-```
-============================================================
-                 AI CAREER MENTOR CREW
-============================================================
-
-Choose Input Method
-
-1. Upload Resume PDF
-2. Manual Profile Entry
-
-Enter Choice (1/2):
-
-Suggested Career Domains
-
-• Data Science
-• Machine Learning
-• AI Engineer
-• Data Engineer
-• Data Analyst
-• Full Stack Development
-• Backend Development
-• Frontend Development
-• Cloud Computing
-• Cyber Security
-
-Enter Target Career Domain:
-
-Generating Career Report...
-
-✔ Resume/Profile Processed
-✔ Skill Analysis Completed
-✔ Career Roadmap Generated
-✔ Portfolio Projects Suggested
-✔ Interview Preparation Generated
-
-Career Report Generated Successfully!
-```
-
----
-
-# 📄 Sample Report
+# Sample Report
 
 The generated report contains:
 
@@ -317,7 +277,7 @@ reports/career_report.md
 
 ---
 
-# 🔄 LangGraph Workflow
+# LangGraph Workflow
 
 This application demonstrates **Conditional Routing**.
 
@@ -357,21 +317,7 @@ END
 
 ---
 
-# 📸 Screenshots
-
-You can add screenshots here after running the project.
-
-Example:
-
-```
-screenshots/
-
-├── terminal.png
-├── report.png
-└── workflow.png
-```
-
-Then include:
+# Screenshots
 
 ```markdown
 ## Application
@@ -385,21 +331,6 @@ Then include:
 
 ---
 
-# 🤝 Contributing
-
-Contributions are welcome!
-
-If you'd like to improve this project:
-
-1. Fork the repository.
-2. Create a new feature branch.
-3. Commit your changes.
-4. Push your branch.
-5. Open a Pull Request.
-
----
-
-
-## ⭐ If you found this project useful, consider giving it a Star!
+## If you found this project useful, consider giving it a Star!
 
 It helps others discover the project and motivates future improvements.

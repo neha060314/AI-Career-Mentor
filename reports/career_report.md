@@ -4,92 +4,92 @@
 
 - **Name:** Rohan Sharma
 - **Education:** Bachelor of Technology in Computer Science & Engineering
-- **Current Skills:** Python, SQL (PostgreSQL, MySQL), JavaScript, HTML/CSS, Pandas, NumPy, Scikit-Learn, Flask, Matplotlib, Power BI, Git/GitHub, MS Excel, Docker
-- **Target Domain:** Data Science
+- **Current Skills:** Python, SQL, PostgreSQL, MySQL, JavaScript, HTML/CSS, Pandas, NumPy, Scikit-Learn, Flask, Matplotlib, Power BI, Git/GitHub, MS Excel, Docker
+- **Target Domain:** Data Analyst
 
 ## Skill Assessment
 
 ### Profile Analysis: Rohan Sharma
 
 **Strong Areas**
-- **Core Data Science Libraries**: Proficient in Python with Pandas, NumPy, and Scikit-Learn for data manipulation and machine learning.
-- **Data Query & Visualization**: Strong in SQL (PostgreSQL, MySQL), Matplotlib, and Power BI for data retrieval and presentation.
-- **Development & Version Control**: Solid foundation in Git/GitHub, and practical experience with Flask and Docker for application development and deployment.
-- **Foundational Tools**: Competent in MS Excel.
+- **Programming & Data Manipulation:** Proficient in Python (Pandas, NumPy, Scikit-Learn) and SQL (PostgreSQL, MySQL), essential for data extraction, transformation, and analysis.
+- **Data Visualization & BI:** Strong with Matplotlib and Power BI, crucial for creating impactful dashboards and reports.
+- **Version Control:** Competent with Git/GitHub, indicating good development practices.
+- **Foundational Tools:** Solid grasp of MS Excel.
 
 **Missing Skills**
-- **Advanced Statistics & Probability**: Deeper theoretical understanding for robust model building and interpretation.
-- **Deep Learning Frameworks**: Experience with TensorFlow/Keras or PyTorch.
-- **Cloud Platforms**: Practical exposure to AWS, Azure, or GCP for scalable data storage, processing, and ML services.
-- **Big Data Technologies**: Knowledge of tools like Apache Spark for handling large datasets.
+- **Statistical Analysis:** Explicit mention of statistical concepts, hypothesis testing, and A/B testing methodologies.
+- **Cloud Data Platforms:** Experience with cloud services for data storage, processing, and analytics (e.g., AWS S3/Redshift, GCP BigQuery, Azure Data Lake).
 
 **Improvement Suggestions**
-1.  **Deepen Theoretical & DL Expertise**: Undertake projects that require advanced statistical analysis and implement solutions using a deep learning framework (TensorFlow or PyTorch).
-2.  **Gain Cloud & Big Data Experience**: Complete a project involving data processing and model deployment on a major cloud platform (e.g., AWS Sagemaker, Azure ML) and explore Apache Spark for large-scale data handling.
+1.  Undertake a project focused on applying statistical methods (e.g., hypothesis testing, regression analysis) to a real-world dataset, clearly documenting the statistical rationale and findings.
+2.  Learn the basics of a major cloud platform (e.g., AWS or GCP) by setting up a data pipeline, storing data, and performing analysis using their data services.
 
 ## Career Roadmap
 
-### Rohan Sharma: 3-Month Data Science Roadmap
+Here's a 3-month learning roadmap for Rohan Sharma:
 
-**Month 1**
-*   **Focus:** Advanced Statistics & Deep Learning Fundamentals
-*   **Actions:** Complete online courses on inferential statistics, hypothesis testing. Start a TensorFlow/Keras deep learning course. Implement a basic image classification project.
-*   **Goal:** Solidify statistical concepts; build and understand a simple neural network.
+### 3-Month Data Analyst Learning Roadmap
 
-**Month 2**
-*   **Focus:** Cloud & Big Data Introduction
-*   **Actions:** Begin an AWS (or Azure/GCP) fundamentals course. Explore Apache Spark tutorials for data processing. Deploy a basic Scikit-Learn model to AWS Sagemaker.
-*   **Goal:** Understand cloud infrastructure for ML; perform basic big data operations with Spark.
+**Month 1: Statistical Foundations**
+*   **Focus:** Master statistical concepts and methodologies.
+*   **Actions:** Complete an online course (e.g., Coursera's "Statistics for Data Science"), practice hypothesis testing, regression analysis, and A/B testing on a real-world dataset.
+*   **Goal:** Confidently apply statistical methods to data and interpret findings.
 
-**Month 3**
-*   **Focus:** Integrated Project & Advanced Application
-*   **Actions:** Develop an end-to-end project: use a large dataset, process with Spark, build a deep learning model (TensorFlow/Keras), and deploy on AWS/Azure/GCP.
-*   **Goal:** Showcase proficiency in advanced stats, DL, cloud deployment, and big data handling.
+**Month 2: Cloud Data Platforms**
+*   **Focus:** Gain practical experience with cloud data services.
+*   **Actions:** Learn AWS (S3, Athena) or GCP (Cloud Storage, BigQuery) fundamentals. Set up a data pipeline, ingest sample data, and perform basic queries.
+*   **Goal:** Successfully store, query, and manage data within a chosen cloud environment.
+
+**Month 3: Integrated Capstone Project**
+*   **Focus:** Apply new statistical and cloud skills in a comprehensive project.
+*   **Actions:** Design an end-to-end project: source data from the cloud, perform statistical analysis (e.g., A/B test) using Python, and visualize insights in Power BI.
+*   **Goal:** Showcase a robust data analysis pipeline, demonstrating proficiency in all required skills.
+
+---
 
 **Recommended Technologies:**
-TensorFlow/Keras, PyTorch (optional), AWS (Sagemaker, S3, EC2), Apache Spark.
+*   **Statistical Libraries:** Python (Scipy, Statsmodels)
+*   **Cloud Platforms:** AWS (S3, Athena) or GCP (BigQuery, Cloud Storage)
+*   **Existing:** Python (Pandas, NumPy, Scikit-Learn), SQL, Power BI, Git/GitHub, MS Excel
 
 **Recommended Certifications:**
-Deep Learning Specialization (Coursera), AWS Certified Cloud Practitioner (optional, for cloud foundation).
+*   AWS Cloud Practitioner or Google Cloud Digital Leader (foundational cloud knowledge)
 
 ## Recommended Projects
 
-Here are three portfolio project suggestions aligned with your roadmap:
+Here are three portfolio project suggestions:
 
-### 1. Beginner Project
+### Portfolio Projects
 
-*   **Project Name:** Image Classification with CNNs
-*   **Description:** Develop a Convolutional Neural Network (CNN) using TensorFlow/Keras to classify images from a standard dataset (e.g., CIFAR-10 or Fashion MNIST). Focus on data preprocessing and model evaluation.
-*   **Skills Learned:** Python, TensorFlow/Keras, CNN architecture, data preprocessing, model training & evaluation.
+1.  **Beginner: Customer Behavior Analysis**
+    *   **Description:** Analyze a customer transaction dataset to identify purchasing patterns, calculate key metrics (e.g., average order value), and visualize trends using Python and Power BI.
+    *   **Skills Learned:** Python (Pandas, NumPy), SQL (basic queries), Power BI (data visualization), descriptive statistics.
 
-### 2. Intermediate Project
+2.  **Intermediate: Website A/B Test Evaluation on Cloud**
+    *   **Description:** Simulate website traffic data for an A/B test. Store this data in AWS S3 (or GCP Cloud Storage), query it using Athena (or BigQuery), and perform hypothesis testing in Python to determine the statistical significance of the test results.
+    *   **Skills Learned:** AWS S3/GCP Cloud Storage, AWS Athena/GCP BigQuery, SQL, Python (Pandas, Scipy, Statsmodels), Hypothesis Testing, A/B Testing.
 
-*   **Project Name:** Cloud-Deployed Predictive API
-*   **Description:** Build a machine learning model (e.g., for house price prediction or customer churn) using Scikit-Learn. Deploy this model as a scalable API endpoint on AWS Sagemaker.
-*   **Skills Learned:** Scikit-Learn, AWS Sagemaker, model deployment, API integration, cloud services (S3).
-
-### 3. Advanced Project
-
-*   **Project Name:** Distributed Deep Learning Pipeline on Cloud
-*   **Description:** Design an end-to-end project: use Apache Spark to process a large, unstructured dataset. Train a deep learning model (TensorFlow/Keras) on this processed data, and deploy the inference service on AWS/Azure/GCP.
-*   **Skills Learned:** Apache Spark, distributed data processing, TensorFlow/Keras (advanced models), cloud deployment, MLOps fundamentals.
+3.  **Advanced: Sales Performance & Forecasting Pipeline**
+    *   **Description:** Design an end-to-end pipeline. Ingest sales data from a cloud source (S3/BigQuery), perform regression analysis in Python to identify drivers, build a basic forecast, and present interactive insights in Power BI.
+    *   **Skills Learned:** AWS S3/GCP BigQuery, SQL, Python (Pandas, Scipy, Statsmodels, Scikit-Learn), Regression Analysis, Data Modeling, Power BI, Git/GitHub.
 
 ## Interview Preparation
 
 ## Technical Questions
 
-1.  Explain the core principles of hypothesis testing and provide an example of when you'd use an A/B test in a data science context.
-2.  Describe the typical workflow for deploying a deep learning model to a cloud platform like AWS Sagemaker, highlighting key services involved.
+1.  Describe a scenario where you'd use A/B testing. How would you set up the experiment, and what statistical metrics would you monitor to determine success?
+2.  Imagine you need to analyze a large dataset stored in AWS S3. Outline the steps you'd take to query and prepare this data for analysis using AWS Athena and then integrate it into a Python script.
 
 ## HR Questions
 
-1.  This roadmap covers a lot in 3 months. How do you plan to prioritize and ensure deep understanding of each topic?
-2.  What part of this roadmap are you most excited to dive into, and how do you see it contributing to your long-term career goals in data science?
+1.  What motivated you to pursue a Data Analyst career, and how has this 3-month roadmap prepared you for the challenges of the role?
+2.  Tell me about a time you encountered a significant technical challenge during your learning journey. How did you approach it, and what did you learn?
 
 ## Mistakes to Avoid
 
-1.  **Vague Project Explanations:** Don't just list technologies; articulate your role, the challenges you faced, and the impact of your solutions.
-2.  **Shallow Understanding:** Be prepared to explain *why* you chose certain models or tools, not just *what* they are or how to use them.
+1.  **Vague Explanations:** Don't just list technologies; explain *how* and *why* you used them in your projects, especially for statistical concepts and cloud tools.
+2.  **Lack of Project Storytelling:** Be ready to articulate your capstone project's problem, solution, and impact clearly and concisely, demonstrating your end-to-end skills.
 
 ## Final Recommendations
 
