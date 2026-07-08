@@ -280,7 +280,6 @@ reports/career_report.md
 
 # Screenshots
 
-```markdown
 ## Application
 
 ![Terminal](screenshots\terminal.png)
@@ -288,7 +287,6 @@ reports/career_report.md
 ## Generated Report
 
 ![Report](screenshots\report.png)
-```
 
 ---
 
